@@ -1,3 +1,4 @@
 # ControlChallenges
 
-https://janismac.github.io/ControlChallenges/
+Based on https://github.com/janismac/ControlChallenges
+https://sandra-schumann.github.io/ControlChallenges/
