@@ -166,7 +166,6 @@ CC.varInfoShowButton = $('#varInfoShowButton');
 CC.varInfoHideButton = $('#varInfoHideButton');
 CC.tipsButton = $('#tipsButton');
 CC.boilerplateButton = $('#boilerplateButton');
-CC.solutionButton = $('#solutionButton');
 CC.levelmenuButton = $('#levelmenuButton');
 CC.restartButton = $('#restartButton');
 CC.errorsBoxUpButton = $('#errorsBoxUpButton');
@@ -195,7 +194,6 @@ CC.pauseButton.on('click', CC.pause.bind(CC));
 CC.playButton.on('click', CC.play.bind(CC));
 CC.tipsButton.on('click', function() {showPopup('#tipsPopup');});
 CC.boilerplateButton.on('click', CC.loadBoilerplate.bind(CC));
-CC.solutionButton.on('click', CC.loadSampleSolution.bind(CC));
 CC.levelmenuButton.on('click', function() {showPopup('#levelMenuPopup');});
 CC.restartButton.on('click', function() {if(CC.loadCodeAndReset()) CC.play();});
 
